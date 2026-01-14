@@ -45,10 +45,10 @@ chmod +x gui_app.sh tui_app.sh
 
 ## Kullanım
 
-Program, sistem servislerine müdahale ettiği için "sudo" komutu ile yönetici yetkisi kullanılarak çalıştırılmalıdır.
+Program, sistem servislerine müdahale ettiği için "sudo" komutu ile yönetici yetkisi kullanılarak çalıştırılmalıdır.  
 
-<img src="images/img12.png" width="400">
 *Örneğin Terminal Arayüzü 'sudo' komutu ile çalıştırılmadığında.*
+<img src="images/img12.png" width="400">  
 
 **Grafik Arayüzü (GUI) Çalıştırmak İçin:**
 Aşağıdaki komut, YAD tabanlı pencereli arayüzü başlatır:
@@ -64,29 +64,29 @@ Projenin bu modülü, `YAD` (Yet Another Dialog) aracı kullanılarak geliştiri
 
 ### Ekran Görüntüleri
 
+**Şekil 1: Program başlatıldığında kullanıcının karşılaştığı ana işlem menüsü**
 <img src="images/img1.png" width="400">
-*Şekil 1: Program başlatıldığında kullanıcının karşılaştığı ana işlem menüsü.*
 
+**Şekil 2: Sistemdeki servislerin anlık durumlarını (aktif/pasif) ve çalışma bilgilerini (running/dead) düzenli bir liste halinde gösteren ekran**
 <img src="images/img2.png" width="400">
-*Şekil 2: Sistemdeki servislerin anlık durumlarını (aktif/pasif) ve çalışma bilgilerini (running/dead) düzenli bir liste halinde gösteren ekran.*
 
+**Şekil 3: Kullanıcıdan, başlatılmak istenen servisin adının (örn: cron, ssh) istendiği giriş penceresi**
 <img src="images/img3.png" width="400">
-*Şekil 3: Kullanıcıdan, başlatılmak istenen servisin adının (örn: cron, ssh) istendiği giriş penceresi.*
 
+**Şekil 4: Servis başlatma işlemi sorunsuz tamamlandığında kullanıcıya geri bildirim veren onay penceresi**
 <img src="images/img4.png" width="400">
-*Şekil 4: Servis başlatma işlemi sorunsuz tamamlandığında kullanıcıya geri bildirim veren onay penceresi.*
 
+**Şekil 5: Çalışmakta olan bir servisi durdurmak için servis adının girildiği işlem penceresi**
 <img src="images/img5.png" width="400">
-*Şekil 5: Çalışmakta olan bir servisi durdurmak için servis adının girildiği işlem penceresi.*
 
+**Şekil 6: Servis durdurma komutu systemctl üzerinden başarıyla iletildiğinde görüntülenen bilgi mesajı**
 <img src="images/img6.png" width="400">
-*Şekil 6: Servis durdurma komutu systemctl üzerinden başarıyla iletildiğinde görüntülenen bilgi mesajı.*
 
+**Şekil 7: Seçilen servisin çalışma süresi, PID numarası, bellek kullanımı ve son durum loglarını içeren detaylı bilgi ekranı. (Ekranda cron servisinin servis durumu görünmektedir.)**
 <img src="images/img8.png" width="400">
-*Şekil 7: Seçilen servisin çalışma süresi, PID numarası, bellek kullanımı ve son durum loglarını içeren detaylı bilgi ekranı. (Ekranda cron servisinin servis durumu görünmektedir.)*
 
+**Şekil 8: journalctl entegrasyonu sayesinde, ilgili servise ait geçmiş sistem kayıtlarının (logların) döküldüğü pencere. (Ekranda cron servisinin logları görülmektedir.**
 <img src="images/img10.png" width="400">
-*Şekil 8: journalctl entegrasyonu sayesinde, ilgili servise ait geçmiş sistem kayıtlarının (logların) döküldüğü pencere. (Ekranda cron servisinin logları görülmektedir.)*
 
 ---
 
@@ -96,29 +96,30 @@ Projenin bu modülü, `Whiptail` aracı kullanılarak geliştirilmiştir. Grafik
 
 ### Ekran Görüntüleri
 
+**Programın başlangıç ekranı; kullanıcı yön tuşları ile menüde gezinerek işlem seçimi yapabilir.**
 <img src="images/img13.png" width="400">
-*Programın başlangıç ekranı; kullanıcı yön tuşları ile menüde gezinerek işlem seçimi yapabilir.*
 
+**Sistemde kayıtlı servislerin aktiflik ve çalışma durumlarının listelendiği bilgi ekranı.**
 <img src="images/img14.png" width="400">
-*Sistemde kayıtlı servislerin aktiflik ve çalışma durumlarının listelendiği bilgi ekranı.*
 
+**Başlatılmak istenen servisin adının girildiği terminal tabanlı giriş kutusu.**
 <img src="images/img15.png" width="400">
-*Başlatılmak istenen servisin adının girildiği terminal tabanlı giriş kutusu.*
 
+**Servis başlatma komutu başarıyla uygulandığında kullanıcıya gösterilen onay mesajı.**
 <img src="images/img16.png" width="400">
-*Servis başlatma komutu başarıyla uygulandığında kullanıcıya gösterilen onay mesajı.*
 
+**Durdurulacak servisin adının istendiği giriş ekranı.**
 <img src="images/img17.png" width="400">
-*Durdurulacak servisin adının istendiği giriş ekranı.*
 
+**Servis durdurma işleminin sorunsuz tamamlandığını bildiren bilgi penceresi.**
 <img src="images/img18.png" width="400">
-*Servis durdurma işleminin sorunsuz tamamlandığını bildiren bilgi penceresi.*
 
+**Servisin çalışma süresi, PID, bellek kullanımı ve işlem ağacı gibi teknik detayların sunulduğu durum ekranı. (Ekranda cron servisi için durum ekranı gösterilmektedir.)**
 <img src="images/img20.png" width="400">
-*Servisin çalışma süresi, PID, bellek kullanımı ve işlem ağacı gibi teknik detayların sunulduğu durum ekranı. (Ekranda cron servisi için durum ekranı gösterilmektedir.)*
 
+**Seçilen servise ait `journalctl` kayıtlarının (logların) terminal üzerinde görüntülendiği pencere. (Ekranda cron servisinin logları görünmektedir.)**
 <img src="images/img22.png" width="400">
-*Seçilen servise ait `journalctl` kayıtlarının (logların) terminal üzerinde görüntülendiği pencere. (Ekranda cron servisinin logları görünmektedir.)*
+
 
 ## Proje Videosu
 
