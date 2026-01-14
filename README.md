@@ -32,26 +32,28 @@ Projeyi bilgisayarınıza kurmak ve gerekli bağımlılıkları yüklemek için 
 
 1. Gerekli paketleri yükleyin:
 
-'''
+```bash
 sudo apt update
 sudo apt install yad git
-'''
+```
 
-3. Projeyi GitHub üzerinden indirin:
+2. Projeyi GitHub üzerinden indirin:
 
-'''
+```bash
 git clone https://github.com/selinsenturkk/pardus-servis-yoneticisi.git
-'''
-5. Proje dizinine girin:
+```
 
-'''
-cd pardus-servis-yoneticisi/LinuxProje
-''' 
+3. Proje dizinine girin:
 
-6. Script dosyalarına çalıştırma izni verin:
-'''
+```
+cd pardus-servis-yoneticisi/LinuxProje 
+```
+
+4. Script dosyalarına çalıştırma izni verin:
+
+```
 chmod +x gui_app.sh tui_app.sh
-'''
+```
 
 ## Kullanım
 
