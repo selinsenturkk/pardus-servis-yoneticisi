@@ -52,11 +52,11 @@ Program, sistem servislerine müdahale ettiği için "sudo" komutu ile yönetici
 <img src="images/img12.png" width="400">  
 
 **Grafik Arayüzü (GUI) Çalıştırmak İçin:**
-Aşağıdaki komut, YAD tabanlı pencereli arayüzü başlatır:
+Aşağıdaki komut, YAD tabanlı pencereli arayüzü başlatır:  
 sudo ./gui_app.sh
 
 **Terminal Arayüzü (TUI) Çalıştırmak İçin:**
-Aşağıdaki komut, Whiptail tabanlı terminal içi menü arayüzünü başlatır:
+Aşağıdaki komut, Whiptail tabanlı terminal içi menü arayüzünü başlatır:  
 sudo ./tui_app.sh
 
 ## Grafiksel Kullanıcı Arayüzü (GUI)
