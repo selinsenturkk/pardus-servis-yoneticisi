@@ -45,9 +45,10 @@ chmod +x gui_app.sh tui_app.sh
 
 ## Kullanım
 
-Program, sistem servislerine müdahale ettiği için "sudo" komutu ile yönetici yetkisi kullanılarak çalıştırılmalıdır.  
+Program, sistem servislerine müdahale ettiği için "sudo" komutu ile yönetici yetkisi kullanılarak çalıştırılmalıdır.    
 
-*Örneğin Terminal Arayüzü 'sudo' komutu ile çalıştırılmadığında.*
+*Örneğin Terminal Arayüzü 'sudo' komutu ile çalıştırılmadığında.*  
+
 <img src="images/img12.png" width="400">  
 
 **Grafik Arayüzü (GUI) Çalıştırmak İçin:**
