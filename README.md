@@ -160,4 +160,4 @@ Projenin bu modülü, `Whiptail` aracı kullanılarak geliştirilmiştir. Grafik
 
 ## Proje Videosu
 
-Projenin kurulumu, tanıtımı ve örnek kullanım senaryolarını içeren videoya buradan ulaşabilirsiniz:
+Projenin tanıtımı ve örnek kullanım senaryolarını içeren videoya [buradan](https://youtu.be/M9mpYKXngY0) ulaşabilirsiniz.
