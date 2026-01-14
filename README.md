@@ -65,37 +65,45 @@ Projenin bu modülü, `YAD` (Yet Another Dialog) aracı kullanılarak geliştiri
 
 ### Ekran Görüntüleri
 
-*Şekil 1: Program başlatıldığında kullanıcının karşılaştığı ana işlem menüsü*  
+*Program başlatıldığında kullanıcının karşılaştığı ana işlem menüsü:*  
 
 <img src="images/img1.png" width="400">
 
-*Şekil 2: Sistemdeki servislerin anlık durumlarını (aktif/pasif) ve çalışma bilgilerini (running/dead) düzenli bir liste halinde gösteren ekran*  
+
+*Sistemdeki servislerin anlık durumlarını (aktif/pasif) ve çalışma bilgilerini (running/dead) düzenli bir liste halinde gösteren ekran:*  
 
 <img src="images/img2.png" width="400">
 
-*Şekil 3: Kullanıcıdan, başlatılmak istenen servisin adının (örn: cron, ssh) istendiği giriş penceresi*  
+
+*Kullanıcıdan, başlatılmak istenen servisin adının (örn: cron, ssh) istendiği giriş penceresi:*  
 
 <img src="images/img3.png" width="400">
 
-*Şekil 4: Servis başlatma işlemi sorunsuz tamamlandığında kullanıcıya geri bildirim veren onay penceresi*  
+
+*Servis başlatma işlemi sorunsuz tamamlandığında kullanıcıya geri bildirim veren onay penceresi:*  
 
 <img src="images/img4.png" width="400">
 
-*Şekil 5: Çalışmakta olan bir servisi durdurmak için servis adının girildiği işlem penceresi*  
+
+*Çalışmakta olan bir servisi durdurmak için servis adının girildiği işlem penceresi:*  
 
 <img src="images/img5.png" width="400">
 
-*Şekil 6: Servis durdurma komutu systemctl üzerinden başarıyla iletildiğinde görüntülenen bilgi mesajı*  
+
+*Servis durdurma komutu systemctl üzerinden başarıyla iletildiğinde görüntülenen bilgi mesajı:*  
 
 <img src="images/img6.png" width="400">
 
-*Şekil 7: Seçilen servisin çalışma süresi, PID numarası, bellek kullanımı ve son durum loglarını içeren detaylı bilgi ekranı. (Ekranda cron servisinin servis durumu görünmektedir.)*  
 
-<img src="images/img8.png" width="400">
+*Seçilen servisin çalışma süresi, PID numarası, bellek kullanımı ve son durum loglarını içeren detaylı bilgi ekranı. (Ekranda cron servisinin servis durumu görünmektedir.):*  
 
-*Şekil 8: journalctl entegrasyonu sayesinde, ilgili servise ait geçmiş sistem kayıtlarının (logların) döküldüğü pencere. (Ekranda cron servisinin logları görülmektedir.*  
+<img src="images/img8.png" width="400">  
+
+
+*journalctl entegrasyonu sayesinde, ilgili servise ait geçmiş sistem kayıtlarının (logların) döküldüğü pencere. (Ekranda cron servisinin logları görülmektedir.):*  
 
 <img src="images/img10.png" width="400">
+
 
 ---
 
