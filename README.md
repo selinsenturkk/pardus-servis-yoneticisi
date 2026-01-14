@@ -113,35 +113,35 @@ Projenin bu modülü, `Whiptail` aracı kullanılarak geliştirilmiştir. Grafik
 
 ### Ekran Görüntüleri
 
-*-Programın başlangıç ekranı; kullanıcı yön tuşları ile menüde gezinerek işlem seçimi yapabilir.*  
+*-Programın başlangıç ekranı; kullanıcı yön tuşları ile menüde gezinerek işlem seçimi yapabilir:*  
 
 <img src="images/img13.png" width="400">
 
-*-Sistemde kayıtlı servislerin aktiflik ve çalışma durumlarının listelendiği bilgi ekranı.*  
+*-Sistemde kayıtlı servislerin aktiflik ve çalışma durumlarının listelendiği bilgi ekranı:*  
 
 <img src="images/img14.png" width="400">
 
-*-Başlatılmak istenen servisin adının girildiği terminal tabanlı giriş kutusu.*  
+*-Başlatılmak istenen servisin adının girildiği terminal tabanlı giriş kutusu:*  
 
 <img src="images/img15.png" width="400">
 
-*-Servis başlatma komutu başarıyla uygulandığında kullanıcıya gösterilen onay mesajı.*  
+*-Servis başlatma komutu başarıyla uygulandığında kullanıcıya gösterilen onay mesajı:*  
 
 <img src="images/img16.png" width="400">
 
-*-Durdurulacak servisin adının istendiği giriş ekranı.*  
+*-Durdurulacak servisin adının istendiği giriş ekranı:*  
 
 <img src="images/img17.png" width="400">
 
-*-Servis durdurma işleminin sorunsuz tamamlandığını bildiren bilgi penceresi.*  
+*-Servis durdurma işleminin sorunsuz tamamlandığını bildiren bilgi penceresi:*  
 
 <img src="images/img18.png" width="400">
 
-*-Servisin çalışma süresi, PID, bellek kullanımı ve işlem ağacı gibi teknik detayların sunulduğu durum ekranı. (Ekranda cron servisi için durum ekranı gösterilmektedir.)*  
+*-Servisin çalışma süresi, PID, bellek kullanımı ve işlem ağacı gibi teknik detayların sunulduğu durum ekranı. (Ekranda cron servisi için durum ekranı gösterilmektedir.):*  
 
 <img src="images/img20.png" width="400">
 
-*-Seçilen servise ait `journalctl` kayıtlarının (logların) terminal üzerinde görüntülendiği pencere. (Ekranda cron servisinin logları görünmektedir.)*  
+*-Seçilen servise ait `journalctl` kayıtlarının (logların) terminal üzerinde görüntülendiği pencere. (Ekranda cron servisinin logları görünmektedir.):*  
 
 <img src="images/img22.png" width="400">
 
